@@ -13,8 +13,7 @@ public class Main {
         System.out.println("Tasks: ");
         for (Task t : lists)
         {
-            i++;
-            System.out.println(i +" "+ t.name);
+            System.out.println(t.id +" "+ t.name);
         }
     }
 
