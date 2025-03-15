@@ -6,12 +6,14 @@ public class Tasklist {
     ArrayList<Task> lists = new ArrayList<Task>();
     Tasklist() {
 
+
     }
 
     public void addtask(String name){
         int i = 0;
         Task curtask = new Task(name);
         lists.add(curtask);
+
     }
 
     public void display(){
